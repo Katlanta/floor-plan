@@ -1,6 +1,8 @@
-# Import the Staff class from floorplan.py
+"""# Import the Staff class from floorplan.py
 from floorplan import Staff
-from fpdata import  edited_data
+
+# Import the function get_formatted_dataset from fpdata.py
+from fpdata import get_formatted_dataset
 
 # Define station requirements
 station_requirements = {
@@ -14,14 +16,14 @@ station_requirements = {
     "MAINT": 1
 }
 
-# Read the dataset
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Get the formatted dataset directly from fpdata.py
+formatted_dataset = get_formatted_dataset()
 
 # Create a list to store Staff objects
 staff_members = []
 
 # Parse each line of the dataset to create Staff objects
-for line in lines:
+for line in formatted_dataset.split('\n'):
     parts = line.strip().split('\t')
     if len(parts) >= 2:
         name = parts[0]
@@ -46,4 +48,5 @@ for station, assigned_staff in station_assignments.items():
         staff_info = [f"{name} ({title}) - Shift: {shift_time}" for name, title, shift_time in assigned_staff]
         print(f"At station {station}: {', '.join(staff_info)}")
     else:
-        print(f"At station {station}: No staff assigned")
+        print(f"At station {station}: No staff assigned")"""
+
