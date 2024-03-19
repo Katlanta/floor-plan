@@ -115,3 +115,6 @@ for line in lines:
 # Print the edited lines
 for line in edited_lines:
     print(line)
+
+
+#Create "ALL" for stations, similar to managers but for crew. Will be important when manager specific roles get introduced.
