@@ -1,120 +1,45 @@
-# Unedited dataset
-unedited_data = """
-    Shift Manager	Shift	Break
-Healey, Daniel	08:00 - 16:00	
-11:00
-Kiosk Coach/Orders	Shift	Break
-Itteera, Naji	11:00 - 19:00	
-13:00
-Colville, Shannon	12:00 - 20:00	
-14:00
-Collect (IS)	Shift	Break
-Customer Experience Leader	Shift	Break
-Paterson, Debbie	06:00 - 14:00	
-09:45
-Dining Area	Shift	Break
-Barron, Debbie	09:45 - 14:15	
-11:30
-Show shifts in these dayparts
-Overnight	Breakfast	Day	Evening
-Positions as of
-12:00
-Orders (DT)	Shift	Break
-Costa, Nikita	08:00 - 14:00	
-11:00
-Collect (DT)	Shift	Break
-Walker, Murray	11:45 - 19:45	
-14:45
-Drinks	Shift	Break
-Trufin, Robert	07:30 - 14:30	
-10:30
-Fries	Shift	Break
-Trufin, Mihaela	07:00 - 15:00	
-09:45
-Batch Cooker	Shift	Break
-Fernandes, Natalie	06:00 - 14:00	
-08:00
-Eggs	Shift	Break
-Rutkowska, Aldona	06:30 - 13:30	
-09:00
-Sausage	Shift	Break
-Meal/break(g)	Shift	Break
-Hamilton, Josh	10:00 - 18:00	
-11:45
-Tempering & Prep	Shift	Break
-BOP	Shift	Break
-Assembler	Shift	Break
-Fernandes, Domnick	05:00 - 14:00	
-09:00
-Davidson, Fraser	05:00 - 14:00	
-08:30
-Ambrosimov, Mihaela	08:00 - 16:00	
-11:15
-Kolenchery Varkey, Alex	11:30 - 19:30	
-15:15
-Support	Shift	Break
-Smith, Norman	06:00 - 14:00	
-11:00
-Graham, Rosie	08:00 - 16:00	
-12:45
-Chung, Kalib	09:00 - 17:00	
-12:45
-MacNicol, Blair	11:00 - 19:00	
-14:45
-Kounelis, Katia	11:00 - 19:00	
-14:45
-No Activity Allocation	Shift	Break
-pires, meefa	06:00 - 14:00	
-09:45
-Francis, Gideon	09:30 - 14:30	
-11:30
-Cowling, Robbie	11:00 - 19:00	
-14:45
-Purushu, Amal	11:30 - 19:30	
-13:45
-    """
+import json
 
-# Split the data into lines
-lines = unedited_data.strip().split('\n')
+# Function to extract crew members from the 'crewlist.txt' file
+def extract_crew_members(file_path):
+    crew_members = {}
+    with open(file_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split(', ')
+            if len(parts) >= 2:
+                name = parts[0].strip()
+                title = parts[1].strip()
+                stations = [station.strip() for station in parts[2:]] if len(parts) > 2 else []
+                crew_members[name] = {'title': title, 'stations': stations}
+    return crew_members
 
-# Initialize an empty list to store the edited lines
-edited_lines = []
+# Load crew members from the 'crewlist.txt' file
+crew_members = extract_crew_members('crewlist.txt')
+print("Crew Members from 'crewlist.txt':", crew_members)
 
-# Iterate through each line
-for line in lines:
-    # Skip lines containing unnecessary information
-    if any(keyword in line for keyword in ["Shift Manager", "Kiosk Coach/Orders", "Collect (IS)",
-                                           "Customer Experience Leader", "Dining Area",
-                                           "Show shifts in these dayparts", "Orders (DT)",
-                                           "Collect (DT)", "Drinks", "Fries", "Batch Cooker",
-                                           "Eggs", "Sausage", "Meal/break(g)", "Tempering & Prep",
-                                           "BOP", "Assembler", "Support", "No Activity Allocation",
-                                           "Overnight", "Breakfast"
-                                           ]):
-        continue
+# Load extracted employee information from the 'employee_info.json' file
+with open('employee_info.json', 'r') as file:
+    employees_info = json.load(file)
+print("Employee Information from 'employee_info.json':", employees_info)
 
-    # Extract name and time range
-    parts = line.split('\t')
+# Find crew members in common between both files
+common_crew_members = {}
+for employee_info in employees_info:
+    name = f"{employee_info['first_name']} {employee_info['last_name']}"
+    shift_time = f"{employee_info['shift_time']}"
+    if name in crew_members:
+        common_crew_members[name] = {
+            'title': crew_members[name]['title'],
+            'stations': crew_members[name]['stations'],
+            'shift_time': shift_time
+        }
 
-    # Ensure parts contain at least 2 elements
-    if len(parts) >= 2:
-        name_parts = parts[0].split(', ')
-        if len(name_parts) == 2:
-            last_name = name_parts[0].strip()
-            first_name = name_parts[1].strip()
-            shift_time = parts[1].strip()
+print("Common Crew Members:", common_crew_members)
 
-            # Format the edited line
-            edited_line = f"Name: {first_name} {last_name} Shift Time: {shift_time}"
+# Save common crew members and their information into a JSON file
+with open('common_crew_members.json', 'w') as file:
+    json.dump(common_crew_members, file, indent=4)
 
-            # Append the edited line to the list
-            edited_lines.append(edited_line)
-        else:
-            print("Skipping line:", line)
-
-# Print the edited lines
-for line in edited_lines:
-    print(line)
-
-
-#Create "ALL" for stations, similar to managers but for crew. Will be important when manager specific roles get introduced.
+# Print common crew members and their information
+for name, info in common_crew_members.items():
+    print(f"Name: {name}, Title: {info['title']}, Stations: {', '.join(info['stations']) if info['stations'] else 'None'}, Shift Time: {info['shift_time']}")
