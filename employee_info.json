@@ -1,8 +1,8 @@
 [
     {
-        "first_name": "Megan",
-        "last_name": "Rolland",
-        "shift_time": "15:00 - 23:00"
+        "first_name": "Nash",
+        "last_name": "Fernandes",
+        "shift_time": "08:00 - 16:00"
     },
     {
         "first_name": "Andreea",
@@ -15,14 +15,19 @@
         "shift_time": "12:00 - 20:00"
     },
     {
-        "first_name": "Max",
-        "last_name": "Chalmers",
-        "shift_time": "16:30 - 21:30"
+        "first_name": "Abdulbarr",
+        "last_name": "Logunleko",
+        "shift_time": "07:00 - 15:00"
     },
     {
-        "first_name": "Mateusz",
-        "last_name": "Hurnik",
-        "shift_time": "14:00 - 22:00"
+        "first_name": "Joanna",
+        "last_name": "Suchorowiec",
+        "shift_time": "06:00 - 14:00"
+    },
+    {
+        "first_name": "meefa",
+        "last_name": "pires",
+        "shift_time": "09:00 - 15:00"
     },
     {
         "first_name": "Priti",
@@ -30,9 +35,24 @@
         "shift_time": "11:30 - 19:30"
     },
     {
-        "first_name": "Amy",
-        "last_name": "Meikle",
-        "shift_time": "12:30 - 20:30"
+        "first_name": "Rosie",
+        "last_name": "Graham",
+        "shift_time": "08:00 - 14:00"
+    },
+    {
+        "first_name": "Jude",
+        "last_name": "Carter",
+        "shift_time": "07:30 - 14:30"
+    },
+    {
+        "first_name": "Sommer",
+        "last_name": "Martin",
+        "shift_time": "08:00 - 15:00"
+    },
+    {
+        "first_name": "Kyle",
+        "last_name": "Davidson",
+        "shift_time": "06:00 - 14:00"
     },
     {
         "first_name": "Jakub",
@@ -40,34 +60,39 @@
         "shift_time": "11:30 - 19:30"
     },
     {
-        "first_name": "Ariel",
-        "last_name": "Roszkiewicz",
-        "shift_time": "17:00 - 22:00"
+        "first_name": "Josh",
+        "last_name": "Hamilton",
+        "shift_time": "06:30 - 13:30"
     },
     {
-        "first_name": "James",
-        "last_name": "Dyce",
-        "shift_time": "11:45 - 19:45"
+        "first_name": "Kenzie",
+        "last_name": "Masson",
+        "shift_time": "07:00 - 15:00"
     },
     {
-        "first_name": "Dana",
-        "last_name": "Harkess",
-        "shift_time": "10:00 - 18:00"
+        "first_name": "Corey",
+        "last_name": "Melvin",
+        "shift_time": "08:30 - 16:30"
     },
     {
-        "first_name": "Remy",
-        "last_name": "Davidson",
-        "shift_time": "15:00 - 23:00"
+        "first_name": "Natalie",
+        "last_name": "Fernandes",
+        "shift_time": "09:00 - 16:00"
     },
     {
-        "first_name": "Kayden",
-        "last_name": "Morrice",
-        "shift_time": "14:00 - 22:00"
+        "first_name": "Louis",
+        "last_name": "Bell",
+        "shift_time": "09:00 - 17:00"
     },
     {
-        "first_name": "Nicole",
-        "last_name": "Macdonald",
-        "shift_time": "15:00 - 23:00"
+        "first_name": "Domnick",
+        "last_name": "Fernandes",
+        "shift_time": "05:00 - 14:00"
+    },
+    {
+        "first_name": "Mihaela",
+        "last_name": "Ambrosimov",
+        "shift_time": "05:00 - 14:00"
     },
     {
         "first_name": "Maryam",
@@ -80,9 +105,9 @@
         "shift_time": "11:00 - 20:00"
     },
     {
-        "first_name": "Sefia",
-        "last_name": "Adurojaiye",
-        "shift_time": "11:30 - 19:30"
+        "first_name": "James",
+        "last_name": "Dyce",
+        "shift_time": "11:45 - 19:45"
     },
     {
         "first_name": "Cailean",
@@ -90,58 +115,38 @@
         "shift_time": "12:00 - 20:00"
     },
     {
-        "first_name": "Aimee-louise",
-        "last_name": "Milne",
-        "shift_time": "14:00 - 21:00"
+        "first_name": "Struan",
+        "last_name": "Sinclair",
+        "shift_time": "06:00 - 14:00"
     },
     {
-        "first_name": "Chloe",
-        "last_name": "Third",
-        "shift_time": "14:00 - 20:15"
+        "first_name": "Nikita",
+        "last_name": "Costa",
+        "shift_time": "05:00 - 13:00"
     },
     {
-        "first_name": "Daniel",
-        "last_name": "Healey",
-        "shift_time": "16:00 - 00:00"
-    },
-    {
-        "first_name": "Jorja",
-        "last_name": "Ross",
-        "shift_time": "16:00 - 22:00"
-    },
-    {
-        "first_name": "Blair",
-        "last_name": "MacNicol",
-        "shift_time": "16:00 - 00:00"
-    },
-    {
-        "first_name": "Finlay",
-        "last_name": "Bain",
-        "shift_time": "14:00 - 22:00"
-    },
-    {
-        "first_name": "Aimee",
-        "last_name": "Milne",
-        "shift_time": "15:00 - 23:00"
-    },
-    {
-        "first_name": "Sebastian",
-        "last_name": "Maleszyk",
-        "shift_time": "15:30 - 21:00"
-    },
-    {
-        "first_name": "Cameron",
-        "last_name": "Beattie",
-        "shift_time": "15:30 - 22:00"
-    },
-    {
-        "first_name": "Zack",
-        "last_name": "Yule",
-        "shift_time": "15:30 - 21:30"
-    },
-    {
-        "first_name": "Ruairidh",
+        "first_name": "Kye",
         "last_name": "Smith",
-        "shift_time": "17:00 - 23:30"
+        "shift_time": "06:00 - 14:00"
+    },
+    {
+        "first_name": "Oliwier",
+        "last_name": "Donocik",
+        "shift_time": "09:00 - 16:30"
+    },
+    {
+        "first_name": "Dana",
+        "last_name": "Harkess",
+        "shift_time": "10:00 - 18:00"
+    },
+    {
+        "first_name": "Sefia",
+        "last_name": "Adurojaiye",
+        "shift_time": "11:30 - 19:30"
+    },
+    {
+        "first_name": "Amy",
+        "last_name": "Meikle",
+        "shift_time": "12:30 - 20:30"
     }
 ]

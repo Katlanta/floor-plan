@@ -120,3 +120,4 @@ with open('employee_info.json', 'w') as file:
 # Print extracted information
 for employee in employees_info:
     print(f"Name: {employee['first_name']} {employee['last_name']} Shift Time: {employee['shift_time']}")
+    
