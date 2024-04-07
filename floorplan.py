@@ -23,56 +23,54 @@ def extract_employee_info(data):
 
 unedited_data = """
     Shift Manager	Shift	Break
-Fernandes, Nash	08:00 - 16:00	
-11:00
 Kiosk Coach/Orders	Shift	Break
-Bradeanu, Andreea	11:00 - 19:00	
-13:00
-Dougan, Kieran	12:00 - 20:00	
+West, Lewis	12:00 - 20:00	
 14:00
 Collect (IS)	Shift	Break
+Fernandes, Natalie	07:30 - 14:30	
+09:30
 Customer Experience Leader	Shift	Break
-Logunleko, Abdulbarr	07:00 - 15:00	
+Paterson, Debbie	06:00 - 14:00	
 09:45
 Dining Area	Shift	Break
-Suchorowiec, Joanna	06:00 - 14:00	
-09:00
 Show shifts in these dayparts
 Overnight	Breakfast	Day	Evening
 Positions as of
-12:00
+13:00
 Orders (DT)	Shift	Break
-pires, meefa	09:00 - 15:00	
-11:00
-Rudra, Priti	11:30 - 19:30	
+Milne, Aimee	11:30 - 19:30	
 13:45
+Colville, Shannon	12:00 - 20:00	
+14:30
 Collect (DT)	Shift	Break
-Graham, Rosie	08:00 - 14:00	
-10:45
+Melvin, Corey	06:00 - 14:00	
+09:45
+Cowling, Robbie	07:00 - 15:00	
+09:45
 Drinks	Shift	Break
-Carter, Jude	07:30 - 14:30	
-11:00
-Martin, Sommer	08:00 - 15:00	
-12:15
+Mikruta, Anna	08:00 - 14:00	
+09:30
 Fries	Shift	Break
+Earp, Daniel	09:00 - 16:00	
+13:15
 Batch Cooker	Shift	Break
-Davidson, Kyle	06:00 - 14:00	
+Swan, Angel	06:00 - 14:00	
 08:00
-Wielgosz, Jakub	11:30 - 19:30	
-13:30
+Donocik, Oliwier	11:30 - 19:30	
+15:45
 Eggs	Shift	Break
-Hamilton, Josh	06:30 - 13:30	
+Costa, Nikita	06:30 - 13:30	
 09:00
 Sausage	Shift	Break
 Meal/break(g)	Shift	Break
-Masson, Kenzie	07:00 - 15:00	
-11:45
-Melvin, Corey	08:30 - 16:30	
-11:30
-Fernandes, Natalie	09:00 - 16:00	
-11:45
+Smith, Tenny	09:00 - 17:00	
+12:45
+Gray, Stewart	09:30 - 16:30	
+12:45
+Smith, Ruairidh	11:00 - 19:00	
+13:00
 Tempering & Prep	Shift	Break
-Bell, Louis	09:00 - 17:00	
+Itteera, Naji	09:00 - 17:00	
 11:15
 BOP	Shift	Break
 Assembler	Shift	Break
@@ -80,30 +78,22 @@ Fernandes, Domnick	05:00 - 14:00
 09:00
 Ambrosimov, Mihaela	05:00 - 14:00	
 08:30
-Logunleko, Maryam	11:00 - 19:00	
-13:15
-Ross, Jacob	11:00 - 20:00	
-14:30
-Dyce, James	11:45 - 19:45	
-13:45
-Awid, Cailean	12:00 - 20:00	
-15:45
-Support	Shift	Break
 Sinclair, Struan	06:00 - 14:00	
-09:00
-No Activity Allocation	Shift	Break
-Costa, Nikita	05:00 - 13:00	
-09:30
-Smith, Kye	06:00 - 14:00	
-10:45
-Donocik, Oliwier	09:00 - 16:30	
-12:45
-Harkess, Dana	10:00 - 18:00	
-12:45
-Adurojaiye, Sefia	11:30 - 19:30	
-14:00
-Meikle, Amy	12:30 - 20:30	
+11:15
+Singh, Kumari	11:00 - 19:00	
+13:15
+Support	Shift	Break
+Smith, Norman	06:00 - 14:00	
+11:00
+Anderson, Jordan	06:00 - 14:00	
+09:45
+Nastase, Ana-Maria	11:00 - 19:00	
 14:45
+Tay, Isabella	11:00 - 19:00	
+14:45
+No Activity Allocation	Shift	Break
+Hamilton, Josh	11:00 - 19:00	
+13:45
 """
 
 # Extract employee information
@@ -171,12 +161,12 @@ class Staff:
 # Define station requirements
 station_requirements = {
     "KITCHEN": 8,
-    "W1": 2,
+    "W1": 1,
     "W2": 2,
     "OAT": 5,
     "FRIES": 1,
-    "BEV": 2,
-    "DA": 1,
+    "BEV": 1,
+    "DA": 3,
     "MAINT": 1
 }
 

@@ -71,14 +71,14 @@ Aldona Rutkowska, Crew Member, KITCHEN
 Rebekah Scott, Crew Member, OAT, W1, W2, BEV, KITCHEN, FRIES
 Richard Silva, Crew Member, ANC
 Tyler Sinclair, Crew Member, ANC, OAT, W1, W2, BEV, KITCHEN, FRIES
-Kumari Singh, Crew Member,
+Kumari Singh, Crew Member, KITCHEN
 Kye Smith, Crew Member, OAT, W1, W2, BEV, KITCHEN, FRIES
 Cole Spiller, Crew Member,
-Jade Summers, Crew Member,
+Jade Summers, Crew Member, OAT
 Angel Swan, Crew Member, OAT, W1, W2
 Mate Szegenyak, Crew Member,
 Ellie Taylor, Crew Member,
-Owain Thom, Crew Member,
+Owain Thom, Crew Member, KITCHEN
 Joe Thottan, Crew Member, OAT, BEV, KITCHEN, FRIES
 Mihaela Trufin, Crew Member, KITCHEN
 Robert Trufin, Crew Member, KITCHEN
@@ -131,3 +131,5 @@ Abdulbarr Logunleko, Customer Care, DA
 Debbie Paterson, Customer Care, DA 
 Tenny Smith, Customer Care, DA 
 Joanna Suchorowiec, Customer Care, DA
+Adelina Abasli, Customer Care, DA
+Jordan Anderson, Customer Care, DA
