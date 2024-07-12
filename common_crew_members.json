@@ -1,4 +1,54 @@
 {
+    "Chloe Third": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "15:00 - 22:15"
+    },
+    "Mihaela Ambrosimov": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT",
+            "KITCHEN"
+        ],
+        "shift_time": "11:00 - 19:00"
+    },
+    "Evgenia Dimitrova": {
+        "title": "Shift Manager W2",
+        "stations": [
+            "OAT",
+            "KITCHEN,"
+        ],
+        "shift_time": "12:00 - 20:00"
+    },
+    "Mackenzie Jolly": {
+        "title": "Crew Member",
+        "stations": [
+            "W1",
+            "ANC"
+        ],
+        "shift_time": "16:30 - 21:30"
+    },
+    "Chisom Izuka": {
+        "title": "Crew Member",
+        "stations": [
+            "ANC"
+        ],
+        "shift_time": "22:00 - 06:00"
+    },
+    "Ashton Hebenton": {
+        "title": "Crew Member",
+        "stations": [
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "16:00 - 22:00"
+    },
     "Lewis West": {
         "title": "Crew Member",
         "stations": [
@@ -7,93 +57,43 @@
             "W2",
             "BEV"
         ],
-        "shift_time": "12:00 - 20:00"
+        "shift_time": "16:00 - 22:00"
     },
-    "Natalie Fernandes": {
-        "title": "Crew Trainer",
+    "Mihaela Trufin": {
+        "title": "Crew Member",
         "stations": [
+            "KITCHEN"
+        ],
+        "shift_time": "17:00 - 22:00"
+    },
+    "Kayden Morrice": {
+        "title": "Crew Member",
+        "stations": [
+            "OAT",
             "W1",
             "W2",
-            "OAT",
+            "BEV",
             "KITCHEN",
-            "FRIES",
+            "FRIES"
+        ],
+        "shift_time": "17:30 - 23:00"
+    },
+    "Aimee-louise Milne": {
+        "title": "Crew Member",
+        "stations": [
+            "OAT",
+            "W1",
+            "W2",
             "BEV"
         ],
-        "shift_time": "07:30 - 14:30"
+        "shift_time": "14:00 - 22:00"
     },
-    "Debbie Paterson": {
+    "Tenny Smith": {
         "title": "Customer Care",
         "stations": [
             "DA"
         ],
-        "shift_time": "06:00 - 14:00"
-    },
-    "Aimee Milne": {
-        "title": "Crew Member",
-        "stations": [
-            "OAT",
-            "W1",
-            "W2",
-            "BEV"
-        ],
-        "shift_time": "11:30 - 19:30"
-    },
-    "Shannon Colville": {
-        "title": "Crew Member",
-        "stations": [
-            "KITCHEN"
-        ],
-        "shift_time": "12:00 - 20:00"
-    },
-    "Corey Melvin": {
-        "title": "Crew Member",
-        "stations": [
-            "OAT",
-            "W1",
-            "BEV",
-            "KITCHEN"
-        ],
-        "shift_time": "06:00 - 14:00"
-    },
-    "Robbie Cowling": {
-        "title": "Crew Member",
-        "stations": [
-            "OAT",
-            "W1",
-            "W2",
-            "BEV",
-            "KITCHEN",
-            "FRIES"
-        ],
-        "shift_time": "07:00 - 15:00"
-    },
-    "Anna Mikruta": {
-        "title": "Crew Member",
-        "stations": [
-            "OAT",
-            "W1",
-            "W2",
-            "BEV",
-            "KITCHEN",
-            "FRIES"
-        ],
-        "shift_time": "08:00 - 14:00"
-    },
-    "Daniel Earp": {
-        "title": "Support",
-        "stations": [
-            "MAINT"
-        ],
-        "shift_time": "09:00 - 16:00"
-    },
-    "Angel Swan": {
-        "title": "Crew Member",
-        "stations": [
-            "OAT",
-            "W1",
-            "W2"
-        ],
-        "shift_time": "06:00 - 14:00"
+        "shift_time": "11:45 - 19:45"
     },
     "Oliwier Donocik": {
         "title": "Crew Member",
@@ -107,24 +107,40 @@
         ],
         "shift_time": "11:30 - 19:30"
     },
-    "Nikita Costa": {
+    "Amy Richardson": {
         "title": "Crew Member",
         "stations": [
             "OAT",
             "W1",
             "W2",
+            "BEV"
+        ],
+        "shift_time": "16:30 - 22:00"
+    },
+    "Julius Okanta": {
+        "title": "Crew Member",
+        "stations": [
+            "ANC"
+        ],
+        "shift_time": "21:00 - 05:00"
+    },
+    "Liam Cowie": {
+        "title": "Crew Member",
+        "stations": [
+            "OAT",
+            "W2",
             "BEV",
             "KITCHEN",
             "FRIES"
         ],
-        "shift_time": "06:30 - 13:30"
+        "shift_time": "18:00 - 22:00"
     },
-    "Tenny Smith": {
-        "title": "Customer Care",
+    "Richard Silva": {
+        "title": "Crew Member",
         "stations": [
-            "DA"
+            "ANC"
         ],
-        "shift_time": "09:00 - 17:00"
+        "shift_time": "22:00 - 06:00"
     },
     "Stewart Gray": {
         "title": "Crew Member",
@@ -136,45 +152,29 @@
             "KITCHEN",
             "FRIES"
         ],
-        "shift_time": "09:30 - 16:30"
+        "shift_time": "09:00 - 17:00"
     },
-    "Ruairidh Smith": {
-        "title": "Crew Trainer",
+    "Zack Yule": {
+        "title": "Crew Member",
         "stations": [
+            "OAT",
             "W1",
             "W2",
-            "OAT",
-            "KITCHEN",
-            "FRIES",
-            "BEV"
-        ],
-        "shift_time": "11:00 - 19:00"
-    },
-    "Naji Itteera": {
-        "title": "Shift Manager",
-        "stations": [
-            "W2",
-            "OAT",
+            "BEV",
             "KITCHEN",
             "FRIES"
         ],
-        "shift_time": "09:00 - 17:00"
+        "shift_time": "16:30 - 22:00"
     },
-    "Domnick Fernandes": {
+    "Finlay Bain": {
         "title": "Crew Member",
         "stations": [
-            "KITCHEN"
-        ],
-        "shift_time": "05:00 - 14:00"
-    },
-    "Mihaela Ambrosimov": {
-        "title": "Shift Manager",
-        "stations": [
-            "W2",
+            "KITCHEN",
             "OAT",
-            "KITCHEN"
+            "FRIES",
+            "W2"
         ],
-        "shift_time": "05:00 - 14:00"
+        "shift_time": "17:00 - 22:00"
     },
     "Struan Sinclair": {
         "title": "Crew Trainer",
@@ -186,26 +186,55 @@
             "FRIES",
             "BEV"
         ],
-        "shift_time": "06:00 - 14:00"
-    },
-    "Kumari Singh": {
-        "title": "Crew Member,",
-        "stations": [],
-        "shift_time": "11:00 - 19:00"
-    },
-    "Norman Smith": {
-        "title": "Support",
-        "stations": [
-            "MAINT"
-        ],
-        "shift_time": "06:00 - 14:00"
+        "shift_time": "11:30 - 19:30"
     },
     "Ana-Maria Nastase": {
         "title": "Crew Member,",
         "stations": [],
-        "shift_time": "11:00 - 19:00"
+        "shift_time": "22:00 - 05:00"
     },
-    "Josh Hamilton": {
+    "Daniel Healey": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "12:00 - 20:00"
+    },
+    "Sefia Adurojaiye": {
+        "title": "Customer Care",
+        "stations": [
+            "DA"
+        ],
+        "shift_time": "15:00 - 23:00"
+    },
+    "Sommer Martin": {
+        "title": "Crew Member",
+        "stations": [
+            "OAT",
+            "W1",
+            "W2",
+            "BEV"
+        ],
+        "shift_time": "16:00 - 21:00"
+    },
+    "Abdulbarr Logunleko": {
+        "title": "Customer Care",
+        "stations": [
+            "DA"
+        ],
+        "shift_time": "09:00 - 17:00"
+    },
+    "Robert Trufin": {
+        "title": "Crew Member",
+        "stations": [
+            "KITCHEN"
+        ],
+        "shift_time": "17:00 - 22:00"
+    },
+    "Dana Harkess": {
         "title": "Crew Member",
         "stations": [
             "OAT",
@@ -216,5 +245,102 @@
             "FRIES"
         ],
         "shift_time": "11:00 - 19:00"
+    },
+    "Murray Walker": {
+        "title": "Crew Member",
+        "stations": [
+            "OAT",
+            "W1",
+            "W2",
+            "BEV",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "11:45 - 19:45"
+    },
+    "Callum Tait": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "14:00 - 21:00"
+    },
+    "Louis Bell": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "16:00 - 01:00"
+    },
+    "Rosie Graham": {
+        "title": "Shift Manager",
+        "stations": [
+            "W2",
+            "OAT"
+        ],
+        "shift_time": "22:00 - 06:00"
+    },
+    "Tyler Sinclair": {
+        "title": "Crew Member",
+        "stations": [
+            "ANC",
+            "OAT",
+            "W1",
+            "W2",
+            "BEV",
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "22:00 - 06:00"
+    },
+    "Kalib Chung": {
+        "title": "Crew Trainer",
+        "stations": [
+            "W1",
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES",
+            "BEV"
+        ],
+        "shift_time": "22:00 - 06:00"
+    },
+    "James Dyce": {
+        "title": "Crew Trainer",
+        "stations": [
+            "W1",
+            "W2",
+            "OAT",
+            "KITCHEN",
+            "FRIES",
+            "BEV"
+        ],
+        "shift_time": "11:00 - 20:00"
+    },
+    "Shannon Colville": {
+        "title": "Crew Member",
+        "stations": [
+            "KITCHEN"
+        ],
+        "shift_time": "15:00 - 23:00"
+    },
+    "Callum Dempster": {
+        "title": "Crew Member,",
+        "stations": [],
+        "shift_time": "16:30 - 21:30"
+    },
+    "Ariel Roszkiewicz": {
+        "title": "Crew Member",
+        "stations": [
+            "KITCHEN",
+            "FRIES"
+        ],
+        "shift_time": "18:00 - 00:00"
     }
 }

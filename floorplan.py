@@ -21,79 +21,111 @@ def extract_employee_info(data):
                     employees.append({'first_name': first_name, 'last_name': last_name, 'shift_time': shift_time})
     return employees
 
-unedited_data = """
-    Shift Manager	Shift	Break
+unedited_data = """ 
+Shift Manager	Shift	Break
+Third, Chloe	15:00 - 22:15	
+18:00
 Kiosk Coach/Orders	Shift	Break
-West, Lewis	12:00 - 20:00	
+Ambrosimov, Mihaela	11:00 - 19:00	
+13:00
+Dimitrova, Evgenia	12:00 - 20:00	
 14:00
+Jolly, Mackenzie	16:30 - 21:30	
+17:45
+Izuka, Chisom	22:00 - 06:00	
+01:30
 Collect (IS)	Shift	Break
-Fernandes, Natalie	07:30 - 14:30	
-09:30
+Hebenton, Ashton	16:00 - 22:00	
+19:15
+West, Lewis	16:00 - 22:00	
+19:15
+Trufin, Mihaela	17:00 - 22:00	
+18:45
+Morrice, Kayden	17:30 - 23:00	
+21:00
 Customer Experience Leader	Shift	Break
-Paterson, Debbie	06:00 - 14:00	
-09:45
+Milne, Aimee-louise	14:00 - 22:00	
+16:15
 Dining Area	Shift	Break
+Smith, Tenny	11:45 - 19:45	
+15:30
 Show shifts in these dayparts
 Overnight	Breakfast	Day	Evening
 Positions as of
-13:00
+17:00
 Orders (DT)	Shift	Break
-Milne, Aimee	11:30 - 19:30	
-13:45
-Colville, Shannon	12:00 - 20:00	
-14:30
-Collect (DT)	Shift	Break
-Melvin, Corey	06:00 - 14:00	
-09:45
-Cowling, Robbie	07:00 - 15:00	
-09:45
-Drinks	Shift	Break
-Mikruta, Anna	08:00 - 14:00	
-09:30
-Fries	Shift	Break
-Earp, Daniel	09:00 - 16:00	
-13:15
-Batch Cooker	Shift	Break
-Swan, Angel	06:00 - 14:00	
-08:00
 Donocik, Oliwier	11:30 - 19:30	
-15:45
+13:45
+Fyvie, David	23:00 - 06:00	
+02:15
+Collect (DT)	Shift	Break
+Richardson, Amy	16:30 - 22:00	
+20:15
+Okanta, Julius	21:00 - 05:00	
+23:15
+Drinks	Shift	Break
+Pirie, Keira	17:00 - 22:00	
+18:15
+Cowie, Liam	18:00 - 22:00	
+19:15
+Silva, Richard	22:00 - 06:00	
+02:15
+Adurojaiye, David	23:00 - 06:00	
+03:00
+Fries	Shift	Break
+Gray, Stewart	09:00 - 17:00	
+11:30
+Yule, Zack	16:30 - 22:00	
+19:15
+Bain, Finlay	17:00 - 22:00	
+19:30
+Batch Cooker	Shift	Break
+Sinclair, Struan	11:30 - 19:30	
+14:45
+Tay, Isabella	17:00 - 00:00	
+20:15
+Nastase, Ana-Maria	22:00 - 05:00	
+03:00
 Eggs	Shift	Break
-Costa, Nikita	06:30 - 13:30	
-09:00
 Sausage	Shift	Break
 Meal/break(g)	Shift	Break
-Smith, Tenny	09:00 - 17:00	
-12:45
-Gray, Stewart	09:30 - 16:30	
-12:45
-Smith, Ruairidh	11:00 - 19:00	
-13:00
+Healey, Daniel	12:00 - 20:00	
+16:30
+Adurojaiye, Sefia	15:00 - 23:00	
+17:00
+Martin, Sommer	16:00 - 21:00	
+17:00
 Tempering & Prep	Shift	Break
-Itteera, Naji	09:00 - 17:00	
+Logunleko, Abdulbarr	09:00 - 17:00	
 11:15
+Trufin, Robert	17:00 - 22:00	
+19:00
 BOP	Shift	Break
 Assembler	Shift	Break
-Fernandes, Domnick	05:00 - 14:00	
-09:00
-Ambrosimov, Mihaela	05:00 - 14:00	
-08:30
-Sinclair, Struan	06:00 - 14:00	
-11:15
-Singh, Kumari	11:00 - 19:00	
+Harkess, Dana	11:00 - 19:00	
 13:15
+Walker, Murray	11:45 - 19:45	
+15:45
+Tait, Callum	14:00 - 21:00	
+16:15
+Bell, Louis	16:00 - 01:00	
+20:00
+Graham, Rosie	22:00 - 06:00	
+00:45
+Sinclair, Tyler	22:00 - 06:00	
+01:30
 Support	Shift	Break
-Smith, Norman	06:00 - 14:00	
-11:00
-Anderson, Jordan	06:00 - 14:00	
-09:45
-Nastase, Ana-Maria	11:00 - 19:00	
-14:45
-Tay, Isabella	11:00 - 19:00	
-14:45
+Chung, Kalib	22:00 - 06:00	
+00:00
 No Activity Allocation	Shift	Break
-Hamilton, Josh	11:00 - 19:00	
+Dyce, James	11:00 - 20:00	
 13:45
+Colville, Shannon	15:00 - 23:00	
+17:30
+Dempster, Callum	16:30 - 21:30	
+18:30
+Roszkiewicz, Ariel	18:00 - 00:00	
+20:00
 """
 
 # Extract employee information
